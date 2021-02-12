@@ -1,0 +1,55 @@
+.flex {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder
+}
+
+h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.scores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border: 5px solid black;
+    margin-top: 3px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: pink;
+}
+
+.optionBtn button {
+    border: 1px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    border-radius: 8px;
+    
+}
+
+.optionBtn div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Library</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class='flex'>
+        <div id='pageHeader'>
+            <h1>Welcome to the Library</h1>
+        </div>
+        <div class='button'>
+            <button id='newBook'>Add a Book</button>
+        </div>
+        <div class='bookGrid'></div>
+        <form>
+            <div class='popupForm' id='popupForm'>
+                <h3 class='popupTitle'>Add a new book:</h3>
+                <input class='popupInput' type='text' id='title' placeholder='Title' required>
+                <input class='popupInput' type='text' id='author' placeholder='Author' required>
+                <input class='popupInput' type='text' id='pages' placeholder='# of Pages' required>
+                <div class ='isRead'>
+                    <label for='isread'>Read?</label>
+                    <input class='popupInput' type='checkbox' id='isRead'>
+                </div>
+                <button id='submit'>Submit & Add</button>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="scripts.js"></script>
+</html>
